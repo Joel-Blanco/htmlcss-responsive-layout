@@ -16,13 +16,13 @@
 
     /* Recipe header */
     .recipe-origin {
-        display:inline-block;
+        display:inline;
     }
 
     .recipe h2 {
         font-size: 2rem;
     }
-    
+
     /* Quick Notes */
     /* Qui sono impazzito per replicarlo bene e centrato, ho arrotondato la "width" del terzo "li" */
     .quick-notes ul {
@@ -35,4 +35,24 @@
         width: 174px;  /* <--qui ho moltiplicato *3 per avere l'ingombro */
     }
 
+    /* Buttons */
+
+    .social-networks {
+        justify-content: center;
+    }
+
+    .social-networks .btn {
+        width: calc(85% / 5);
+    }
+
+    /* ADS */
+    .ads {
+        display: block;
+    }
+
+    /* PRESENTATION */
+    .clearfix img {
+        float: inline-start;
+        margin-right: 10px;
+    }
 }
