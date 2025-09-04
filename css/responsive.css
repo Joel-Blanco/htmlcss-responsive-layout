@@ -1,6 +1,6 @@
 /* Soluzione qui */
 
-/* TABLET */
+/* ///////////TABLET/////////// */
 @media screen and (min-width: 768px) {
     /* HEADER */
     #topbar {
@@ -54,5 +54,25 @@
     .clearfix img {
         float: inline-start;
         margin-right: 10px;
+    }
+}
+
+
+/* ///////////DESKTOP/////////// */
+@media screen and (min-width: 992px) {
+    .recipe h2 {
+        font-size: 3.5rem;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 60%;
+    }
+
+    .recipe-info {
+        width: 40%;
     }
 }
