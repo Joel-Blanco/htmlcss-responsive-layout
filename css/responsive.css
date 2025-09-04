@@ -1,0 +1,38 @@
+/* Soluzione qui */
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    /* HEADER */
+    #topbar {
+        justify-content: flex-start;    
+    }
+
+    /* MAIN */
+    main {
+        padding: 50px;
+    }
+
+    /************* RECIPE *************/
+
+    /* Recipe header */
+    .recipe-origin {
+        display:inline-block;
+    }
+
+    .recipe h2 {
+        font-size: 2rem;
+    }
+    
+    /* Quick Notes */
+    /* Qui sono impazzito per replicarlo bene e centrato, ho arrotondato la "width" del terzo "li" */
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: calc((100% - 522px) / 2); /* <--width *3 sottratto */
+    }
+
+    .quick-notes li {
+        width: 174px;  /* <--qui ho moltiplicato *3 per avere l'ingombro */
+    }
+
+}
