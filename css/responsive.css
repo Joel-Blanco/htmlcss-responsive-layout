@@ -13,7 +13,6 @@
     }
 
     /************* RECIPE *************/
-
     /* Recipe header */
     .recipe-origin {
         display:inline;
@@ -36,13 +35,12 @@
     }
 
     /* Buttons */
-
     .social-networks {
         justify-content: center;
     }
 
     .social-networks .btn {
-        width: calc(85% / 5);
+        width: calc(90% / 5);
     }
 
     /* ADS */
@@ -60,19 +58,51 @@
 
 /* ///////////DESKTOP/////////// */
 @media screen and (min-width: 992px) {
+
+    /************* RECIPE *************/
+    /* Recipe header */
     .recipe h2 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
+    /* Recipe Card */
     .recipe-card {
         display: flex;
+        min-height: 400px;
     }
 
     .recipe-video {
-        width: 60%;
+        width: 70%;
+        height: unset;
     }
 
     .recipe-info {
-        width: 40%;
+        width: 30%;
+    }
+
+    /* Quick-notes */
+    .quick-notes ul {
+        display: unset;
+    }
+
+    .quick-notes li {
+        width: unset;
+    }
+
+    .quick-notes {
+        margin-top: 10px;
+    }
+
+    /*  SOCIAL NETWORKS */
+    .social-networks .label {
+	display: unset;
+    }
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: start;
     }
 }
